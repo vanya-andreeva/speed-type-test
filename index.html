@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Your Typing Speed With Our JavaScript Test </title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="headerTitle">
+        <h1>Test Your Typing Speed</h1>
+    </header>
+    <main class="main">
+        <article class="textToType">
+            <p>Hello and welcome to our speed typing test! The goal is to type in the box below all text as it appears here in this description. When you finish typing, the timer will stop. Just make SURE you type all letters correctly. Pay attention to the border of the box as it will signal you every time you make mistake. Good luck and enjoy!</p>
+        </article><!-- .textToType -->
+        <section class="typeBox">
+            <div id="textOrg">
+                <p>Hello! This is your typing text. Thank you!</p>
+            </div><!-- #textOrg -->
+
+            <div class="typeBox-wrapper">
+                <textarea id="textArea" name="textarea" rows="6" placeholder="Start typing!"></textarea>
+            </div><!-- .typeBox-wrapper -->
+
+            <div class="meta">
+                <section id="clock">
+                    <div class="SpeedTimer">00:00:00</div>
+                </section>
+
+                <button id="reset">Restart</button>
+            </div><!-- .meta -->
+        </section><!-- .typeBox -->
+    </main>
+
+</body>
+
+</html>
